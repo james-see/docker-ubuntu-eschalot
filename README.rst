@@ -12,7 +12,7 @@ INSTALL GUIDE
 1. Clone this repo via your fav git clone method (https / ssh)
 2. Change directory into this repo ``cd docker-ubuntu-eschalot``
 3. Edit the Dockerfile username:password from root:changeme (``nano Dockerfile`` make change then CTRL+X and 'y')
-4. Run `` sudo docker build -t [whatever name you want here] .``
+4. Run ``sudo docker build -t [whatever name you want here]`` .
 
 RUN GUIDE
 ---------

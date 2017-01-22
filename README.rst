@@ -18,7 +18,7 @@ RUN GUIDE
 ---------
 
 1. After install run via ``docker run -d -P --name [name you want docker container to be called] [name you chose in step 4 above]``
-2. Run ``docker port test sshd`` to check assigned port to your docker container that is running.
+2. Run ``docker port [name you chose in 1] sshd`` to check assigned port to your docker container that is running.
 3. ssh into it using the user and password you set in step 3 in the install guide: ``ssh [user]@127.0.0.1 -p[port from 2]``
 4. Now that you are in the docker, you can run the eschalot command as much as you want. I like to simply do ``eschalot -v -t8 -p hello`` to do a quick test.
 5. Drop the generated private key in your hidden data dir that is set in your torrc file and restart your hidden service and you should be GTG. For questions, go ahead and send me a message via email (pgp key available over at keybase.io) or on twitter @jamescampbell.
